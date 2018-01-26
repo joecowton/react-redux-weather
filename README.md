@@ -2,7 +2,7 @@
 
 ### Overview
 
--Part 3 of Stephen Grider's ['Modern React with Redux'](https://www.udemy.com/react-redux/) Udemy series.
+A simple search app to view five day forecasts by city, integrating API weather data and Google Maps with React and Redux.
 
 - The app takes data from the [Open Weather Map API](https://openweathermap.org/) using a Redux action creator which making an axios request.
 - Redux-Promise middleware then ensures the data from the request is returned successfully before setting the payload.
@@ -11,4 +11,6 @@
 - The data arrays were graphically displayed using Sparklines.
 - Maps were added using React-Google-Maps
 
-[!App](./images/1.png)
+![App](/images/1.png)
+
+Part 3 of Stephen Grider's ['Modern React with Redux'](https://www.udemy.com/react-redux/) Udemy series.
