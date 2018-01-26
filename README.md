@@ -1,25 +1,14 @@
-# ReduxSimpleStarter
+# React Weather App
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+### Overview
 
-### Getting Started
+-Part 3 of Stephen Grider's ['Modern React with Redux'](https://www.udemy.com/react-redux/) Udemy series.
 
-There are two methods for getting started with this repo.
+- The app takes data from the [Open Weather Map API](https://openweathermap.org/) using a Redux action creator which making an axios request.
+- Redux-Promise middleware then ensures the data from the request is returned successfully before setting the payload.
+- The payload to the reducer which sets the Redux state, specifically by creating a new array containing all weather data rather than mutating the existing array.
+- The state (containing the weather data) is then made available in the 'weather_list' container using Redux's 'mapStateToProps' function.
+- The data arrays were graphically displayed using Sparklines.
+- Maps were added using React-Google-Maps
 
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
+[!App](./images/1.png)
