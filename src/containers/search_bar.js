@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 export default class SearchBar extends Component {
   constructor(props){
     super(props);
@@ -14,9 +13,13 @@ export default class SearchBar extends Component {
     this.setState({ term: event.target.value})
   }
 
+  onFormSubmit(event) {
+    event.preventDefault();
+  }
+
   render () {
     return (
-      <form className="input-group">
+      <form onSubmit={this.onFormSubmit} className="input-group">
         <input
           placeholder="get a five day forecast in your favourite cities"
           className="form-control"
