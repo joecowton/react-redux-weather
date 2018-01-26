@@ -11,6 +11,16 @@ A simple search app to view five day forecasts by city, integrating API weather 
 - The data arrays were graphically displayed using Sparklines.
 - Maps were added using React-Google-Maps
 
+### To run
+```
+$ git clone https://github.com/joecowton/react-redux-weather.git
+$ cd react-redux-weather
+$ npm install
+$ npm start
+
+```
+
+
 ![App](/images/1.png)
 
 Part 3 of Stephen Grider's ['Modern React with Redux'](https://www.udemy.com/react-redux/) Udemy series.
