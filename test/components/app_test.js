@@ -11,4 +11,13 @@ describe('App' , () => {
   it('renders something', () => {
     expect(component).to.exist;
   });
+
+  it('shows a search bar', () => {
+    expect(component.find('.search-bar')).to.exist;
+  });
+
+  it('shows a weather list', () => {
+    expect(component.find('.weather-list')).to.exist;
+  });
+
 });
