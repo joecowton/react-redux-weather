@@ -23,4 +23,4 @@ $ npm start
 
 ![App](/images/1.png)
 
-Loosely taken from Stephen Grider's ['Modern React with Redux'](https://www.udemy.com/react-redux/) Udemy series with additional testing.
+Taken from Stephen Grider's ['Modern React with Redux'](https://www.udemy.com/react-redux/) Udemy series with additional testing.
